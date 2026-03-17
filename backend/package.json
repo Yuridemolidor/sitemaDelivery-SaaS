@@ -1,0 +1,23 @@
+﻿{
+  "name": "delivery-saas-backend",
+  "version": "1.0.0",
+  "description": "Backend para plataforma de delivery SaaS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["delivery", "saas", "backend"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pg": "^8.8.0",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
